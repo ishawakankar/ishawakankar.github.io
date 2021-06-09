@@ -87,7 +87,8 @@ h4 {
 }
 
 .btn-border {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #fff;
     color: #212121;
     border: 1px solid #212121; 
 }
@@ -144,6 +145,16 @@ html, body {
 
 .img-res {
     display: block;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-img-res {
+    display: block;
+    border-radius: 50%;
     width: 100vw;
     height: 100vh;
     max-width: 100%;
@@ -394,7 +405,7 @@ html, body {
 
 .portfolio-item-info {
     position: absolute;
-    top: 150px;
+    top: 120px;
     left: 0px;
     z-index: 999;
     opacity: 0;
