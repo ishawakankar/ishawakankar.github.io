@@ -95,7 +95,8 @@ a:hover {
   .section .container h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
-    position: relative; }
+    position: relative;
+  }
 
 .intro {
   padding: 95px 0px 70px 0px;
